@@ -22,4 +22,10 @@
   
   	This model is not perfect and can make miscalculations
 
-###
+### Matchup History Analysis (WIP)
+
+* **Data used**
+
+   	Relief pitcher data from 2023 was scraped from different parts of BaseballSavant's website
+  
+	
