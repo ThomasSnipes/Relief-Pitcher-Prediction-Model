@@ -6,6 +6,12 @@
 
  	Data is split up across innings, number of outs, and the amount of runners on base
 
-* **Running the code**
+* **How it works**
 
-  	This is a simple Python notebook file that I created with Jupyter notebook
+  	First, a late game situation is generated, such as: 7th inning, 1 out, runners in scoring position
+
+  	To determine which pitcher would be best suited for any given scenario, I created a custom 'Effectiveness' statistic
+
+   	'Effectiveness' is built with a combination of different stats such as OBP, WHIP, FIP, K-BB%, etc.
+
+   	Depending on the severity of the late game situation, each stat used to calculate a relief pitcher's effectiveness is weighted differently in terms of importance
