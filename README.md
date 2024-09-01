@@ -18,14 +18,17 @@
 
    	Once all relevant stats are weighted and the effectiveness statistic is calculated, a Random Forest Regressor is utilized to make the final prediction
 
-* **Notes**
-  
-  	This model is not perfect and can make miscalculations
 
 ### Matchup History Analysis (WIP)
 
 * **Data used**
 
-   	Relief pitcher data from 2023 was scraped from different parts of BaseballSavant's website
+   	All matchup history between all currently active MLB pitchers and all currently active MLB hitters was scraped from BaseballSavant's website
+
+* **How it works**
+
+   	This is still a work in progress, but I plan to generate a more realistic game like situation where, in addition to the inning, outs, and runners on base, 3 hitters from the same team will be chosen to simulate who the pitcher, at minimum, must face
+  
+   	By using their matchup history I can make a more informed prediction on what relief pitcher would be most effective
   
 	
