@@ -1,0 +1,1 @@
+This is a personal project of mine that I created in my spare time in the summer of 2024. Using relief pitcher data from 2015-2023 and a Random Forest Regressor model, I aimed to predict which pitcher would be best suited for a late game situation.
