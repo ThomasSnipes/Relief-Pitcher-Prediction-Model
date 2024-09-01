@@ -15,3 +15,5 @@
    	'Effectiveness' is built with a combination of different stats such as OBP, WHIP, FIP, K-BB%, etc.
 
    	Depending on the severity of the late game situation, each stat used to calculate a relief pitcher's effectiveness is weighted differently in terms of importance
+
+   	Once all relevant stats are weighted and the effectiveness statistic is calculated, a Random Forest Regressor is utilized to make the final prediction
